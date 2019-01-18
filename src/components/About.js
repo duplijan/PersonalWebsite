@@ -3,7 +3,6 @@ import styled from "styled-components";
 import {media} from "../media/media";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMapPin} from "@fortawesome/free-solid-svg-icons";
-import {Icon} from "./Contact";
 import {AnimatedContainer, AnimatedTitle, AnimatedText} from "../animation";
 
 const About = () => (

@@ -1,6 +1,6 @@
 import React from "react";
 import {Route, Switch} from "react-router-dom";
-import styled, {keyframes} from "styled-components";
+import styled from "styled-components";
 import {media} from "./media/media";
 import {PoseGroup} from "react-pose";
 import Home from "./components/Home";
@@ -22,7 +22,12 @@ const App = () => (
         <PoseGroup>
           <AnimatedAppContainer key={location.pathname}>
             <Switch location={location}>
-              <Route exact path="/" component={Home} key="home" />
+              <Route
+                exact
+                path="/PersonalWebsite"
+                component={Home}
+                key="home"
+              />
               <Route path="/about" component={About} key="about" />
               <Route path="/projects" component={Project} key="project" />
               <Route path="/contact" component={Contact} key="contact" />
