@@ -42,7 +42,6 @@ const StyledLink = styled(NavLink)`
   padding: 0 0 3px 0;
   border-image: linear-gradient(to right, #f0f2f0, #a1ffce);
   border-image-slice: 1;
-  font-style: italic;
   transform: scale(1)
   &:focus,
   &:hover,

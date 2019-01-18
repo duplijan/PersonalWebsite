@@ -55,8 +55,8 @@ export const Content = styled.div`
   ${media.tablet`text-align: justify`}
 `;
 export const P = styled.p`
-  letter-spacing: 1.1px;
+  letter-spacing: 1.2px;
   display: inline-block;
-  color: ${props => (props.light ? " #e1e1e1" : "#aaaaaa")};
+  color: ${props => (props.light ? " #e1e1e1" : "#BEBEBE")};
   padding: 5px;
 `;
