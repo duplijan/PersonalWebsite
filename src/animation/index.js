@@ -8,7 +8,6 @@ export const AnimatedAppContainer = posed.div({
 export const AnimatedContainer = posed.div({
   enter: {staggerChildren: 50, beforeChildren: true}
 });
-
 export const AnimatedText = posed.div({
   enter: {y: 0, opacity: 1},
   exit: {y: 50, opacity: 0}

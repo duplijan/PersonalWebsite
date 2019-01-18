@@ -5,7 +5,7 @@ import logo from "../../images/logo.png";
 
 const Logo = () => (
   <Wrapper>
-    <Link to="/">
+    <Link to="/PersonalWebsite">
       <Icon src={logo} />
     </Link>
   </Wrapper>
@@ -17,7 +17,6 @@ const Wrapper = styled.div`
   width: 80%;
   margin: 20px auto;
 `;
-
 const Icon = styled.img.attrs({
   src: ""
 })`

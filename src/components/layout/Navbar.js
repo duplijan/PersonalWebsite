@@ -36,7 +36,6 @@ const NavItem = styled.li`
   margin: 0 20px;
   ${media.largePhone`margin: 0 10px`}
 `;
-
 const StyledLink = styled(NavLink)`
   text-decoration: none;
   color: #898989;

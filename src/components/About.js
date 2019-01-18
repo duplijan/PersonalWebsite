@@ -11,7 +11,6 @@ const About = () => (
       <AnimatedTitle>
         <Title>About me</Title>
       </AnimatedTitle>
-
       <Content>
         <AnimatedText>
           <P>

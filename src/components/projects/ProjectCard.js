@@ -148,7 +148,6 @@ const Tech = styled.div`
   margin: 10px 0 0 0;
   border-top: 2px solid #898989;
 `;
-
 const CardImage = styled.div`
   text-align: center;
   position: relative;
