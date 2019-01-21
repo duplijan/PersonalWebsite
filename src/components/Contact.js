@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faMapPin} from "@fortawesome/free-solid-svg-icons";
 import {
-  faDribbble,
   faLinkedinIn,
   faInstagram,
   faGithub
@@ -43,10 +43,17 @@ const Contact = () => (
             duplinszkijan@gmail.com
           </P>
         </AnimatedText>
+        <AnimatedText>
+          <P>
+            <FontAwesomeIcon icon={faMapPin} style={{marginRight: "10px"}} />
+            London, United Kingdom
+          </P>
+        </AnimatedText>
         <br />
         <AnimatedText>
           <P light> get in touch on social media:</P>
         </AnimatedText>
+
         <IconContainer>
           <AnimatedIcon style={{display: "inline-block"}}>
             <Icon>
@@ -59,13 +66,6 @@ const Contact = () => (
             <Icon>
               <A href="https://www.instagram.com/dupli_jan/">
                 <FontAwesomeIcon icon={faInstagram} />
-              </A>
-            </Icon>
-          </AnimatedIcon>
-          <AnimatedIcon>
-            <Icon>
-              <A href="https://www.linkedin.com/in/jan-duplinszki-517288168/">
-                <FontAwesomeIcon icon={faDribbble} />
               </A>
             </Icon>
           </AnimatedIcon>
@@ -84,9 +84,10 @@ const Contact = () => (
 
 export default Contact;
 
-const IconContainer = styled.div`
+export const IconContainer = styled.div`
   display: flex;
   flex-direction: row;
+  line-height: 30px;
 `;
 export const Icon = styled.span`
   flex: 1;

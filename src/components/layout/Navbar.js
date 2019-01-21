@@ -7,13 +7,13 @@ const Navbar = () => (
   <Wrapper>
     <Navigation>
       <NavItem>
-        <StyledLink to="/about">about me</StyledLink>
+        <StyledLink to="/about">ABOUT ME</StyledLink>
       </NavItem>
       <NavItem>
-        <StyledLink to="/projects">projects</StyledLink>
+        <StyledLink to="/projects">PROJECTS</StyledLink>
       </NavItem>
       <NavItem>
-        <StyledLink to="/contact">contact</StyledLink>
+        <StyledLink to="/contact">CONTACT</StyledLink>
       </NavItem>
     </Navigation>
   </Wrapper>
