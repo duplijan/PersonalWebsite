@@ -53,7 +53,6 @@ const Contact = () => (
         <AnimatedText>
           <P light> get in touch on social media:</P>
         </AnimatedText>
-
         <IconContainer>
           <AnimatedIcon style={{display: "inline-block"}}>
             <Icon>
