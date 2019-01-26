@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import {Title} from "../About";
 import ProjectCard from "./ProjectCard";
-
 import {AnimatedTitle} from "../../animation";
 
 const Project = () => (
